@@ -1,0 +1,94 @@
+/* --------- HEADER NAV --------- */
+
+nav {
+	margin: 45px 0 20px;
+}
+
+nav a {
+	margin-left: 40px;
+	margin-right: 40px;
+	text-decoration: none;
+	color: #32302E;
+}
+
+/* --------- SECTION BACKGROUND --------- */
+h1 {
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 35px;
+	color: #A8258D;
+}
+
+h3 {
+	font-size: 25px;
+}
+
+h4 {
+	font-size: 19px;
+}
+
+p {
+	font-size: 15px;
+}
+
+.background {
+	background-image: url(../images/background.jpg);
+	height: 400px;
+	color: white;
+}
+
+.bg-img-block{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0 10%;
+}
+
+.background img, .background h1, .background p{
+	margin: 30px 0 15px;
+}
+
+/*---------- SECTION ABOUT ------------*/
+
+.about {
+	padding: 45px 70px 20px;
+	background-image: url(../images/tile1.png);
+	text-align: left;
+}
+
+.about img {
+	width: 100%;
+	border: 1px solid black;
+	padding: 4px;
+}
+
+.about .row:last-child {
+	margin: 20px 0;
+}
+
+/*------------ SECTION FAVOURITES --------*/
+
+.favourites img {
+	border-radius: 100%;
+	border: 2px solid #A8258D;
+	padding: 5px;
+	width: 200px;
+	margin: 0 20px 40px 20px;
+}
+
+.favourites h4 {
+	margin: 30px 0;
+	color: #A8258D;
+}
+
+/*------------ SECTION SOCIAL-MEDIA--------*/
+
+.social-media {
+	background-image: url(../images/tile2.png);
+	padding: 50px 0;
+}
+
+.social-media img {
+	margin: 40px 20px 0 20px;
+}
